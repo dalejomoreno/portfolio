@@ -172,7 +172,7 @@ body{
     margin: 0 1em;
 }
 .main{
-    background: var(--black-7);
+    /*background: var(--black-7);*/
     margin: 0 0 1em;
     text-align: center;
     position:relative;
