@@ -181,15 +181,13 @@ body{
     width: 100%;
     min-height: 80vh;
 
-    padding: 2em;
-
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center; 
 }
 .seccion .info{
-    font-size: 1.2em;
+    font-size: 1em;
     animation: aparecer1 2s ease 1 both;
 }
 .seccion .ul{
@@ -212,7 +210,7 @@ body{
     animation: aparecer1 2s ease 1 backwards;
 }
 .seccion .ul>:nth-child(2) .a{
-    animation-delay: 0.4s;
+    animation-delay: 0.5s;
 }
 .seccion .ul .a:hover{
     border-color: white;
@@ -297,7 +295,7 @@ border-radius: 1em;
 }
 .about .p{
     max-width: 40rem;
-    margin: 0 0 2rem;
+    margin: 2rem 1rem;
     font-size: 1.1em;
     text-align: left;
 }
@@ -358,4 +356,10 @@ border-radius: 1em;
 #cursor.mini{
     transform: scale(0.6);
     transition: all .1s linear;
+}
+
+@media (max-width: 768px){
+    #cursor{
+        display: none;
+    }
 }
